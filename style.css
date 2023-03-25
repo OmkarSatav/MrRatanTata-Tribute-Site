@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #28344e;
+}
+
+
+
+.home-page {
+    height: 100vh;
+    width: 100%;
+    background-color: #212631;
+    color: white;
+}
+
+#sirRatanTataImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+}
+
+.centered {
+    margin: auto;
+}
+
+#infoSection h1 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+#infoSection p {
+    font-size: 1.2rem;
+    width: 80%;
+    color: rgb(179, 180, 182);
+
+}
+
+#infoSection,
+#ratanTataImg {
+    margin-left: 10%;
+}
+
+.image-text-section {
+    display: flex;
+    height: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+.image-wrapper,
+.text-wrapper {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+.text-wrapper h1 {
+    color: #2a3346;
+}
+
+.text-wrapper p {
+    color: #2a3346;
+    font-size: 17px;
+    font-style: bold;
+}
+
+.image-wrapper {
+    margin-left: 20px;
+}
+
+.image-wrapper img {
+    width: 70%;
+    height: 100%;
+}
+
+
+.ourThought {
+    margin: 5% 10%;
+    background-color: #28344e;
+    color: antiquewhite;
+    border-radius: 12px;
+    padding: 5%;
+    font-size: 19px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/* 
+i {
+    font-size: 20px;
+    color: #28344e;
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #28344e;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #0033ff;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
